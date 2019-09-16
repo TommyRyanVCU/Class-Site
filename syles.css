@@ -5,10 +5,12 @@ background: white;
 
 .header{
   position: absolute;
-  right:10px;
+  left:10px;
   background: #ffbb00;
   color: white;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Asap', sans-serif;
+  font-weight: bolder;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -16,17 +18,18 @@ background: white;
   height: 200px;
   border-radius: 10%;
   text-decoration: none;
-  transition: border-radius .5s ease,
-              transform .5s ease;
-
+  transition: border-radius .25s ease,
+              transform .75s ease,
+              background 5s ease;
 }
 
 .header:hover{
   position: absolute;
-  right:10px;
-  background: #ffbb00;
+  left:10px;
+  background: #ff4d00;
   color: white;
-  font-family: 'Acme', sans-serif;
+  font-family: 'Asap', sans-serif;
+  font-size: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -34,5 +37,13 @@ background: white;
   height: 200px;
   border-radius: 50%;
   text-decoration: none;
-  transform: rotate(120deg);
+  transform: rotate(360deg);
+}
+
+.poem{
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+background: #ffbb00;
+
 }
