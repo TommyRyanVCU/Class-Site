@@ -1,0 +1,15 @@
+.title{
+  color: #42adf5;
+  display: flex;
+  justify-content: center;
+  font-family: 'Abril Fatface', serif;
+
+}
+
+.content{
+  color: black;
+  font-family: 'Tangerine', cursive;
+  display: flex;
+  align-items: flex-start;
+
+}

@@ -1,0 +1,27 @@
+
+.content{
+
+  color: #ffffff;
+  font-family: 'Tangerine', cursive;
+  display: flex;
+  position: absolute;
+  left:300px;
+  top: 100px;
+  width: 600px;
+  font-size: 30px;
+  margin: 100px;
+  background-color: #fcf8eb;
+  padding-left: 30px;
+
+}
+
+.attribute{
+
+  position: fixed;
+  display: flex;
+  color: #fcf8eb;
+  top: 50px;
+
+
+
+}

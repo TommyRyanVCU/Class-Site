@@ -1,0 +1,23 @@
+.title{
+  color: #42adf5;
+  display: flex;
+  justify-content: center;
+  font-family: 'Abril Fatface', serif;
+
+}
+
+.content{
+
+  color: white;
+  font-family: 'Tangerine', cursive;
+  display: flex;
+  position: absolute;
+  left:300px;
+  top: 100px;
+  width: 600px;
+  font-size: 30px;
+  margin: 100px;
+  background-color: #42adf5;
+  padding-left: 30px;
+
+}
