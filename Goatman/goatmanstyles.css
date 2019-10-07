@@ -1,0 +1,21 @@
+html{
+  background: #0e1411;
+}
+
+@keyframes goatflash {
+0%{opacity: .03;}
+8.5%{opacity: .03;}
+9.5%{opacity: 1;}
+13.5%{opacity: .03;}
+65%{opacity: .03;}
+66%{opacity: 1;}
+69%{opacity: .03;}
+}
+
+.img{
+height: 90%;
+opacity: .03;
+animation-name: goatflash;
+animation-duration: 7s;
+animation-iteration-count: infinite;
+}
