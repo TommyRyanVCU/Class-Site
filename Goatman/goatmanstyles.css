@@ -3,19 +3,76 @@ html{
 }
 
 @keyframes goatflash {
-0%{opacity: .03;}
-8.5%{opacity: .03;}
-9.5%{opacity: 1;}
-13.5%{opacity: .03;}
-65%{opacity: .03;}
-66%{opacity: 1;}
-69%{opacity: .03;}
+0%
+{opacity: 0;}
+32%
+{opacity: 0;
+transform: rotate(90deg);}
+33%
+{opacity: 1;
+transform: rotate(5deg);}
+34%
+{opacity: 0;}
+65%
+{opacity: 0;
+transform: rotate(0deg);}
+66%
+{opacity: 1;}
+75%
+{opacity: 1;}
+85%
+{opacity: 0;}
+99%
+{opacity: 1;
+
+}
+
 }
 
 .img{
+z-index: 1;
 height: 90%;
-opacity: .03;
+opacity: 0;
 animation-name: goatflash;
-animation-duration: 7s;
+animation-duration: 10s;
 animation-iteration-count: infinite;
+margin: 0;
+}
+
+.storyname{
+display: flex;
+z-index: 2;
+position: fixed;
+width: 100vw;
+height:55vh;
+margin-top: 100px;
+margin-left: 0px;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+
+}
+
+h1{
+color: white;
+font-family: freehouse, serif;
+font-weight: 400;
+font-style: normal;
+font-size: 100px;
+padding: 0;
+text-decoration: none;
+}
+
+p {
+  color: white;
+  font-family: freehouse, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+  letter-spacing: 150%;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }
