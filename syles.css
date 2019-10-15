@@ -100,7 +100,9 @@ transform: rotate(0deg);
 }
 
 
-.story{
-
+.retreat{
+text-decoration: none;
+font-family: monospace;
+color: rgb(40, 5, 71);
 
 }
