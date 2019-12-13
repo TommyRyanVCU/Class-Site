@@ -1,4 +1,4 @@
-html {
+html{
   background-image: linear-gradient(90deg, #211920, #03302d);
 }
 
@@ -9,7 +9,7 @@ a{
   font-size: 15px;
 }
 
-.header {
+.header{
   position: absolute;
   right: 10px;
   background: #ffbb00;
@@ -29,7 +29,7 @@ a{
     background 2s ease;
 }
 
-.header:hover {
+.header:hover{
   position: absolute;
   right: 10px;
   background: #ff4d00;
@@ -47,14 +47,14 @@ a{
   transform: rotate(360deg);
 }
 
-.poem {
+.poem{
   text-decoration: none;
   color: white;
   font-family: 'Asap', sans-serif;
   font-size: 15px;
 }
 
-.poemcontainer {
+.poemcontainer{
   position: absolute;
   right: 225px;
   margin: 10px;
@@ -73,14 +73,14 @@ a{
     flex-direction 5s ease;
 }
 
-.poemcontainer:hover {
+.poemcontainer:hover{
   background: rgb(22, 98, 228);
   transform: rotate(-5deg);
   border-radius: 50px;
   flex-direction: column;
 }
 
-.exercises {
+.exercises{
   position: absolute;
   right: 440px;
   margin: 10px;
@@ -106,7 +106,7 @@ border-radius: 30% 50% 50% 30%;
 transform: rotate(0deg);
 }
 
-.exercises2 {
+.second{
   position: absolute;
   top:240px;
   right: 440px;
@@ -127,16 +127,8 @@ transform: rotate(0deg);
     transform .25s ease;
 }
 
-.exercises2:hover{
+.second:hover{
 background: rgb(105, 12, 177);
 border-radius: 30% 50% 50% 30%;
 transform: rotate(0deg);
-}
-
-
-.retreat{
-text-decoration: none;
-font-family: monospace;
-color: rgb(40, 5, 71);
-
 }
