@@ -2,6 +2,13 @@ html {
   background-image: linear-gradient(90deg, #211920, #03302d);
 }
 
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Asap', sans-serif;
+  font-size: 15px;
+}
+
 .header {
   position: absolute;
   right: 10px;
@@ -94,6 +101,33 @@ html {
 }
 
 .exercises:hover{
+background: rgb(105, 12, 177);
+border-radius: 30% 50% 50% 30%;
+transform: rotate(0deg);
+}
+
+.exercises2 {
+  position: absolute;
+  top:240px;
+  right: 440px;
+  margin: 10px;
+  background: #c40661;
+  display: flex;
+  justify-content: space-around;
+  padding-left: 40px;
+  align-items: left;
+  flex-direction: column;
+  width: 180px;
+  height: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  transform: rotate(-90deg);
+  transition: background 1s ease,
+    border-radius .25s ease,
+    transform .25s ease;
+}
+
+.exercises2:hover{
 background: rgb(105, 12, 177);
 border-radius: 30% 50% 50% 30%;
 transform: rotate(0deg);
